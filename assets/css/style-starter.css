@@ -9548,7 +9548,7 @@ a.text-dark:hover, a.text-dark:focus {
     .table-dark tbody + tbody {
       border-color: #dee2e6; }
   .table .thead-dark th {
-    color: inherit;
+    : inherit;
     border-color: #dee2e6; } }
 
 :root {
@@ -10500,6 +10500,11 @@ h4.sub-title {
   z-index: 0;
   display: grid;
   align-items: center; }
+
+.w3l-main-slider .banner-top0 {
+  background: url(../images/0.jpg) no-repeat;
+  background-size: cover; }
+
 
 .w3l-main-slider .banner-top1 {
   background: url(../images/1.jpg) no-repeat;
